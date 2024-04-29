@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cp-02-Front</title>
+    <link rel="stylesheet" href="/src/layout.css">
+    <link rel="stylesheet" href="/src/login.css">
+</head>
+<body>
+    <header>
+        <p><a href="/pages/login.html">Login</a></p>
+        <div class="cabecalho">
+          <img class="logo" src="/assets/images/logo_agnello_circle.png" alt="Logo" height="150" width="150" />
+        </div>
+      </header>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/pages/produtos.html">Produtos</a>
+        <a href="/pages/clientes.html">Avaliações</a>
+      </nav>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for="">Senha</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox" class="remember">Se Lembre de Mim <a href="#">Esqueci minha senha</a></label>
+                    </div>
+                    <button>Login</button>
+                    <div class="register">
+                        <p><a href="#" class="account">Não tenho uma conta</a> <a href="#">Registrar-se</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,65 @@
+html {
+    background-color: #fdf5e6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8B0000;
+    color: white;
+    padding: 20px;  
+}
+
+main {
+    background-color: #fdf5e6;
+    margin: 20px;
+    padding: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+header a:hover {
+    background-color: #CD5C5C;
+}
+
+header p {
+    text-align: right;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #B22222;
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #CD5C5C;
+}
+
+footer {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}

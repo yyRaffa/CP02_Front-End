@@ -1,0 +1,60 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+main section {
+    flex-basis : 48%;
+    margin-right: 2%;
+}
+main section:last-child {
+    margin-right: 0;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    border: solid #8B0000 2px;
+    border-radius: 15px;
+    margin: 10px;
+    position: relative;
+} 
+
+.titulo {
+    color: #8B0000;
+}
+
+.titulo:hover {
+    color: #CD5C5C;
+}
+
+.titulo2 {
+    color: #8B0000;
+}
+
+.titulo2:hover {
+    color: #CD5C5C;
+}
+
+.card {
+    flex-wrap: wrap;
+    background-color: #ffdddd69;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card img {
+    width: 35%;
+    height: auto;
+}
+
+.desc {
+    padding-left: 20px;
+    padding-right: 20px;
+}

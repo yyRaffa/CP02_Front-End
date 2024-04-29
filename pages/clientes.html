@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliações</title>
+    <link rel="stylesheet" href="/src/layout.css">
+    <link rel="stylesheet" href="/src/clientes.css">
+</head>
+ 
+<body>
+    <header>
+        <p><a href="/pages/login.html">Login</a></p>
+        <div class="cabecalho"><img class="logo" src="/assets/images/logo_agnello_circle.png" alt="Logo" height="150" width="150"></div>
+    </header>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/pages/produtos.html">Produtos</a>
+      <a href="/pages/clientes.html">Avaliações</a>
+    </nav>
+    <main>
+    <section>
+        <form>
+            <fieldset>
+                <legend>Deixe Sua Avaliação Aqui &#128071;</legend>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome..." />
+ 
+                <label>Gênero:</label>
+                <input type="radio" name="genero" value="masculino"><span>Masculino</span>
+                <input type="radio" name="genero" value="feminino"><span>Feminino</span>
+                <input type="radio" name="genero" value="outro"><span>Outro</span>
+            <br><br>
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="telefone" placeholder="Digite seu telefone..." />
+ 
+                <label for="email">Email:</label>
+                <input type="text" name="email" placeholder="Digite seu email..." />
+ 
+                <label for="avaliar">Avaliação:</label>
+                <textarea name="avaliar" rows="10" cols="40" maxlength="500"
+                placeholder="Digite sua avaliação aqui..."></textarea>
+                
+                <button type="submit">
+                    Enviar Avaliação!
+                </button>
+    
+                <button type="reset">
+                    Limpar formulário!
+        </fieldset>
+    </form>
+    </section>
+    <section>
+        <article>
+            <hr>
+            <h3>Principais Avaliações</h3>
+            <b>João Souza - &#11088; &#11088; &#11088; &#11088; &#11088; </b>
+            <p>Comprei um Vinho Tinto "Sangre de Toro" na loja online da Vinheria Agnello e gostei muito, o produto
+                veio lacrado, tudo certinho! A entrega ocorreu dentro do prazo e a qualidade do produto é impecável e se
+                há um vinho que
+                captura a essência da estação outonal em cada gole, é o "Sangre de Toro".Esta safra excepcional
+                combina a riqueza das uvas maduras com uma complexidade que se desdobra a cada taça, fazendo com que
+                cada momento de degustação seja uma celebração do melhor que o outono tem para oferecer.</p>
+            <hr>
+            <b>Rosângela Azevedo - &#11088; &#11088; &#11088; &#11088; &#11088;</b>
+            <p>Minha experiência com o Vinho Tinto "Aroma Português", adquirido na loja online da Vinheria Agnello, foi
+                extremamente positiva,recebi o produto devidamente lacrado e em perfeitas condições, mostrando o
+                cuidado da loja com a embalagem e o envio.A entrega foi realizada dentro do prazo estabelecido, o que
+                facilitou ainda mais a minha expectativa em relação a este vinho especial.O "Aroma Português" é um vinho
+                que cativa desde o primeiro instante. Sua suavidade, equilíbrio e profundidade de sabor o tornam uma
+                escolha verdadeiramente memorável para os apreciadores de vinho em busca de algo especial.</p>
+        </article>
+    </section>
+</main>
+<footer>
+    <p>Alguma dúvida? <a href="/pages/faq.html">FAQ</a></p>
+    <p>&copy; 2024 Vinheria Agnello. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
